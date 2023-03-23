@@ -1,0 +1,425 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+/* Navbar */
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width: 140px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.container{
+    padding: 5px 100px;
+    
+}
+nav{
+    border-radius: 30px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 20px;
+    padding: 5px 10px;
+}
+nav ul li a:hover{
+ border-radius: 30px;
+ /* background-color: rgb(248, 28, 28); */
+ background-color: brown;
+}
+.text{
+    margin-top: 15%;
+    font-size: 20px;
+    display: inline-block;
+}
+.text h1{
+    font-size: 60px;
+}
+
+.text span{
+    /* color:rgb(248, 28, 28) ; */
+    color: brown;
+}
+.text p{
+    font-weight: bold;
+}
+.image{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    display: inline-block;
+    left: 57%;
+    background-image: url(pngwing.com.png);
+    background-size: contain ;
+}
+.btn{
+    top: 20px;
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 30px;
+    /* background-color:rgb(248, 28, 28) ; */
+    background-color: brown;
+    color: white;
+}
+.text a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:rgb(192, 28, 28) ;
+}
+/* About Me */
+
+.container2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(250, 250, 250);
+}
+.incontainer{
+    height: 550px;
+    width: 70%;
+    border: 2px solid rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 20px 0px rgb(175, 175, 175),-5px -5px 20px 0px rgb(175, 175, 175);
+}
+.container2 h1{
+    font-size: 40px;
+}
+.col1{
+    height: 500px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.col2{
+    height: 500px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    height: 130px;
+    width: 130px;
+    border: 2px solid black;
+    margin: 20px 30px;
+}
+.info{
+    height: 250px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.info span{
+    font-weight: bold;
+}
+.col2 p{
+    padding: 20px;
+    text-align: justify;
+}
+.col2 a{
+    text-decoration: none;
+    color: black;
+}
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.skill a:hover{
+    /* border-bottom: 3px solid rgb(248, 28, 28) ; */
+    border-bottom: 3px solid brown;
+}
+
+/* services */
+
+.container3{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(14, 14, 14);
+    /* background-color: rgb(250, 250, 250); */
+    flex-direction: column;
+    align-items: center;
+}
+.container3 h1{
+    color: white;
+    font-size: 40px;
+    padding: 30px 0;
+}
+.incontainer3{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxes{
+    height: 280px;
+    width: 280px;
+    /* border: 2px solid white; */
+    background-color: rgb(97, 97, 97);
+    /* border-radius: 30px; */
+    transition-duration: 1s;
+}
+.boxes h1{
+    color: white;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+.boxes p{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+.boxes:hover{
+    transform: translateY(-20px);
+    background-color: brown;
+    color: white;
+    transition-duration: 1s;
+    border: none;
+    border-radius: 30px;
+}
+.fa-solid {
+    font-size: 30px;
+    margin: 20px 10px;
+    color: white;
+}
+.fa-sharp{
+    font-size: 30px;
+    margin: 20px 10px;
+    color: white;
+}
+.se{
+    color: white;
+    padding-bottom: 30px;
+}
+/* Project */
+#proj{
+    font-size: 40px;
+    padding: 130px 0px;
+}
+.container4{
+    height: 650px;
+    width: 100vw;
+    background-color:  rgb(14, 14, 14);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.incontainer4{
+    height: 470px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.items4{
+    height: 450px;
+    width: 280px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.items4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition-duration: 2s;
+}
+.layer{
+    color: white;
+    height: 0;
+    width: 100%;
+    background: linear-gradient(rgb(0,0,0,0.6),brown);
+    position: absolute;
+    border-radius: 10px;
+    left:0;
+    bottom: 0;
+    display: flex;
+    overflow: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 15px;
+    z-index: -1;
+    transition: height 0.5s;
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.layer a i{
+    margin-top:20px ;
+    text-decoration: none;
+    color: brown;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center; 
+}
+.items4:hover img{
+    transform: scale(1.1);
+}
+.items4:hover .layer{
+    height: 100%;
+    z-index: 0;
+
+}
+.btn3{
+    height: 50px;
+    width: 150px;
+    border: 2px solid brown;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 80px;
+    color: brown;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+.btn3:hover{
+    transform: scale(1.1);
+    background-color: brown;
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+
+/* Contact */
+.container5{
+    height: 95vh;
+    width: 100vw;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container5 h1{
+    color: white;
+    font-size: 40px;
+}
+.incontainer5{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social{
+    height: 480px;
+    width: 30%;
+}
+.contact{
+    height: 480px;
+    width: 60%;
+}
+.social p{
+    color: white;
+    height: 30px;
+    margin: 10px 10px;
+}
+#con{
+    font-size: 25px;
+}
+#emaillogo{
+    font-size: 20px;
+    color: brown;
+    padding: 10px;
+}
+.logos{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 30px 20px;
+    justify-content: space-between;
+}
+.contact label{
+    color: white;
+    display: block;
+    margin: 50px 20px;
+    font-size: 20px;
+}
+.contact input{
+    width: 80%;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.contact input:focus{
+    border: none;
+    background-color: white;
+    border-radius: 0px;
+    color: black;
+}
+.contact textarea{
+    width: 80%;
+    height: 100px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.contact textarea:focus{
+    border: none;
+    background-color: white;
+    border-radius: 0px;
+    color: black;
+}
+.logos i:hover{
+    background-color: white;
+    border-radius: 100%;
+}
