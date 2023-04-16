@@ -162,6 +162,18 @@ nav ul li a:hover{
     /* border-bottom: 3px solid rgb(248, 28, 28) ; */
     border-bottom: 3px solid brown;
 }
+.tab_link ul li{
+    list-style: none;
+    margin: 10px 20px;
+}
+.tab_link ul li span{
+    color: brown;
+    font-size: 14px;
+    font-weight: bold;
+}
+.active_education{
+    display: none;
+}
 
 /* services */
 
@@ -183,6 +195,7 @@ nav ul li a:hover{
     height: 300px;
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -244,6 +257,7 @@ nav ul li a:hover{
     height: 470px;
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 
 }
@@ -422,4 +436,93 @@ nav ul li a:hover{
 .logos i:hover{
     background-color: white;
     border-radius: 100%;
+}
+nav .fa-bars{
+    font-size: 25px;
+    display: none;
+}
+nav .fa-solid{
+    font-size: 20px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px){
+    .image{
+        display: none;
+    }
+    nav .fa-bars{
+        font-size: 25px;
+        display: block;
+        position: relative;
+        left: 100%;
+        top: 10px;
+    }
+    nav .fa-xmark{
+        font-size: 20px;
+        display: block;
+    }
+    nav ul{
+        background: brown;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+    nav ul li{
+        margin: 25px 10px;
+        display: block;
+    }
+    nav ul .fa-xmark{
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .logo{
+        position: absolute;
+        top: -10px; 
+        left: 0;
+    }
+    .text{
+        position: absolute;
+        top: 30%;
+        left: 20px;
+    }
+    .text h1{
+        font-size: 40px;
+        margin: 10px 0;
+    }
+    .text p{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .col1{
+        display: none;
+    }
+    .col2{
+        width: 90%;
+    }
+    .col2 p{
+        font-size: 16px;
+        text-align: justify;
+        padding: 0px;
+        margin: 0px;
+        flex-basis: 100%;
+    }
+    #About h1{
+        font-size: 30px;
+    }
+    .skill{
+        display: none;
+    }
+    #services h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .se{
+        font-size: 11px;
+        margin: 0;
+    }
 }
